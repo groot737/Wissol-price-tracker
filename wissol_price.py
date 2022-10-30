@@ -1,6 +1,6 @@
 import json
 import requests
-# name = str(input("enter superhero name: "))
+
 url = 'http://wissol.ge/adminarea/api/ajaxapi/get_fuel_prices?lang=eng'
 response = requests.get(url)
 response.raise_for_status()
